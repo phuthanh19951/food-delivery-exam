@@ -6,4 +6,4 @@
 4. Finally, typing a command "yarn start" to start the project. This project will be running on port 3000. Link: http://localhost:3000.
 5. Typing this link http://localhost:3000/menus/1/sections/3 into your browser to get the detail of this section (categories, items, modifierGroups, modifier). 
 
-* Note: Please feel free to contact me via my email (phuthanh19951@gmail.com) if you meet a problem with setting up the project.
+* Note: Please feel free to contact me via my email (phuthanh19951@gmail.com) if you have any problems with setting it up.
