@@ -1,0 +1,10 @@
+const path = require('path');
+const databaseConfig = require('./config/database');
+const { HOST, PORT, USERNAME, PASSWORD, NAME, DIALECT } = databaseConfig;
+
+module.exports = {
+  'models-path': path.resolve('models'),
+  'seeders-path': path.resolve('seeders'),
+  'migrations-path': path.resolve('migrations'),
+  'url': `${DIALECT}://${USERNAME}:${PASSWORD}:@${HOST}:${PORT}/${NAME}`
+}
